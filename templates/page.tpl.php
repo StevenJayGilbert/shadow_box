@@ -118,27 +118,15 @@
 </head>
 <body class="<?php print $classes; ?>">
 
-  <?php if ($primary_links): ?>
-    <div id="skip-link"><a href="#main-menu"><?php print t('Jump to Navigation'); ?></a></div>
-  <?php endif; ?>
 
   <div id="page-wrapper"><div id="page">
 
-    <div id="header"><div class="section clearfix">
-
-            <?php print $header; ?>
-
-    </div></div><!-- /.section, /#header -->
-
-    <div id="main-wrapper"><div id="main" class="clearfix<?php if ($primary_links || $navigation) { print ' with-navigation'; } ?>">
+    <div id="main-wrapper"><div id="main" class="clearfix">
 
       <div id="content" class="column"><div class="section">
 
         <?php print $highlight; ?>
 
-         <?php if ($title): ?>
-          <h1 class="title"><?php print $title; ?></h1>
-        <?php endif; ?>
         <?php print $messages; ?>
         <?php if ($tabs): ?>
           <div class="tabs"><?php print $tabs; ?></div>
