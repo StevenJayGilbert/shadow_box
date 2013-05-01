@@ -1,0 +1,85 @@
+body,
+caption,
+th,
+td,
+input,
+textarea,
+select,
+option,
+legend,
+fieldset {
+  /* The following font family declarations are based on the Microsoft core web
+   * fonts which are common fonts available on most computer systems. The DejaVu
+   * fonts are commonly available on Linux systems where the MS fonts are less
+   * common. Tahoma and Helvetica are also widely available.
+   *
+   * A user's web browser will look at the comma-separated list and will
+   * attempt to use each font in turn until it finds one that is available
+   * on the user's computer. The final "generic" font (sans-serif or serif)
+   * hints at what type of font to use if the web browser doesn't find any
+   * of the fonts in the list.
+
+  font-family: "Times New Roman", Times, Georgia, "DejaVu Serif", serif;
+  font-family: Times, "Times New Roman", Georgia, "DejaVu Serif", serif;
+  font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-family: Tahoma, Verdana, "DejaVu Sans", sans-serif;
+  font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+
+  font-family: "Courier New", "DejaVu Sans Mono", monospace;
+
+   */
+
+  font-family: 'PT Sans',sans-serif;
+}
+
+/*
+* Pardon our dust
+*/
+.welcome_to_container{
+	margin-left:auto;
+	background-color:#F8F8F8;
+	margin-right:auto;
+  position: relative;
+}
+.welcom_to{
+	text-align:center; color:#2AA4A5; font-size:41px; font-weight:bold; padding:0px; margin:0px; margin-top:5px;
+}
+.we_here{
+	text-align:center; color:#8B5873; font-size:20px; padding:0px; margin:0px; margin-top:0px;
+}
+.health{
+	font-size:22px; font-weight:bold;
+}
+.big_question{
+	font-size:16px; font-weight:bold; text-align:center; margin-left:10px;
+}
+.small_red_arrow{
+	text-align:center; width:469px; height:126px; background-image:url(../images/blockqouet.png); margin:0px;
+}
+.small_red_arrow_p{
+	margin-left:42px; margin-right:52px; font-size:16px; float:left; text-align:justify; color:#333;
+}
+.feedback{
+	width:100%; height:115px; background-color:#E1E1E1; float:left;
+}
+.small_red_arow_2{
+	width:280px; height:100px;  float:left; background-image:url(../images/small_red_arrow.png); background-repeat:no-repeat; margin-left:20px; background-position:left 20px;color:#333;
+}
+.small_red_arow_2_p{
+	padding:0px; margin:0px; margin-left:40px; font-size:17px; margin-top:-5px;
+}
+.small_pink_arrow{
+	 width:260px; margin-right:20px; height:100px;  float:left; background-image:url(../images/small_red_arrow.png); background-repeat:no-repeat; margin-left:20px; background-position:left 20px;color:#333;
+}
+.you_see{
+	padding:0px; margin:0px; margin-left:40px; font-size:17px; margin-top:-5px;
+}
+.facebook_div{
+	width:647px; background-color:#fff; height:110px; float:left; border-radius:0px 0px 21px 21px;
+}
+.facebook_div_p{
+	float:left; margin-left:200px; width:225px; margin-right:10px; font-size:16px; font-weight:bold;
+}
